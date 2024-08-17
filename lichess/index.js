@@ -19,8 +19,8 @@ async function main() {
 
   for (var i = 0; i < players.length; i++) {
     getPlayerById(players[i].user, players[i]);
-    // await setTimeout(10000);
-    // getPlayerGamesById(players[i].user);
+    await setTimeout(10000);
+    getPlayerGamesById(players[i].user);
   }
 }
 
